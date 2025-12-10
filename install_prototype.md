@@ -22,8 +22,30 @@ apt-get install cmake rpm-macros-cmake cmake-modules gcc-c++ qt5-base-devel qt5-
 
 
 ```bash
-https://github.com/august-alt/qjsonrphttps://github.com/august-alt/qjsonrp
-
-
-https://github.com/august-alt/qjsonrp
+git clone https://github.com/august-alt/qjsonrp
 ```
+
+Установим зависимость ```libhttp-parser-devel```
+
+```bash
+apt-get install libhttp-parser-devel
+```
+
+```bash
+gear-rpm -ba
+```
+
+```
+Wrote: /home/fad/RPM/SRPMS/libqjsonrpc-1.0.0-alt1.src.rpm (w2.lzdio)
+Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-1.0.0-alt1.x86_64.rpm (w2.lzdio)
+Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-devel-1.0.0-alt1.x86_64.rpm (w2.lzdio)
+Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-debuginfo-1.0.0-alt1.x86_64.rpm (w2.lzdio)
+```
+
+```bash
+[root@ipa log] apt-get install /home/fad/RPM/RPMS/x86_64/libqjsonrpc-1.0.0-alt1.x86_64.rpm /home/fad/RPM/RPMS/x86_64/libqjsonrpc-devel-1.0.0-alt1.x86_64.rpm
+```
+
+
+
+
