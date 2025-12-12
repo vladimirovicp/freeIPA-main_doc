@@ -124,4 +124,10 @@ systemctl restart oddjobd.service
 
  ![image](img/20251212_154539.png)
 
+ дать права на исполнение
+
+ ```bash
+ chmod +x org.freeipa.server.parse-admx-structure 
+ ```
+
  
