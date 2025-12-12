@@ -99,3 +99,29 @@ code --no-sandbox --user-data-dir=/root/.vscode-root
 * https://github.com/abbra
 
 
+
+
+# Разное
+
+* https://github.com/danila-Skachedubov/freeipa-server-gpo/tree/dev
+
+```bash
+apt-get install admx-basealt
+```
+
+```bash
+systemctl restart oddjobd.service
+```
+
+```bash
+ ipactl restart
+ ```
+
+* https://github.com/danila-Skachedubov/freeipa-server-gpo/tree/dev
+
+еще нужно перенести файлфде
+
+
+ ![image](img/20251212_154539.png)
+
+ 
