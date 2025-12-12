@@ -130,4 +130,9 @@ systemctl restart oddjobd.service
  chmod +x org.freeipa.server.parse-admx-structure 
  ```
 
+
+ ```bash
+ [fad@ipa freeipa-server-gpo]$ gear-rpm -ba --commit
+ ```
+
  
