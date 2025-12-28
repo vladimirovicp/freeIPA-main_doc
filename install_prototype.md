@@ -46,7 +46,7 @@ Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-debuginfo-1.0.0-alt1.x86_64.rpm (w2
 [root@ipa log] apt-get install /home/fad/RPM/RPMS/x86_64/libqjsonrpc-1.0.0-alt1.x86_64.rpm /home/fad/RPM/RPMS/x86_64/libqjsonrpc-devel-1.0.0-alt1.x86_64.rpm
 ```
 
-Запускаем QT Creator, выбираем проект 
+Запускаем QT Creator, выбираем проект  
 
 
 
