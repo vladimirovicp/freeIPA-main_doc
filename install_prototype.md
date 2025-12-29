@@ -62,6 +62,8 @@ Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-debuginfo-1.0.0-alt1.x86_64.rpm (w2
 
 Пропишем параметры командной строки ```-p /home/fad/dev/policy/```
 
+В диерктории ```policy``` создайте файл ```gpt.ini```
+
 ![image](img/install-prototype/20251229_151531.png)
 
 Уточняем где должны храниться наши плагины
@@ -86,6 +88,60 @@ Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-debuginfo-1.0.0-alt1.x86_64.rpm (w2
 ![image](img/install-prototype/20251229_162032.jpg)
 
 Обращаю внимание, что сервер работает на ```:5000``` порту.
+
+
+## Настройка и запуск gp web ui
+
+Для удобства установим Visual Studio Code - [Руководство](install_vs_code)
+
+Так же для работы потребуется nodejs
+
+```bash
+apt-get install node
+```
+
+Установим пакетный менеджер node
+
+```bash
+apt-get install npm
+```
+
+Запускаем проект (gp web ui) vsCode, устанавливаем зависимости
+
+```bash
+npm i
+```
+
+В моем случаи появилась ошибка с зависимостью ```"react-day-picker": "^8.10.1"```, так как версия устарела. Изменю на версию текущего момента ```"react-day-picker": "^9.11.2"```.
+
+А так же версия typescript-eslint устарела, можено не заморачиваться и не искать версию, а прописать установку
+
+```bash
+npm i typescript-eslint
+```
+далее
+
+```bash
+npm i
+```
+
+Все пакеты должны будут подтянуться.
+
+так же нужно прописать порт сервера, в нашем случаи ```:5000```
+
+В vite.config.ts, прописываем наш порт, если он отличается.
+
+```
+proxy: {
+    '/api': {
+    target: 'http://localhost:5000',
+    secure: false
+    }
+}
+```
+
+в app.txs  51 строка сравни адрес http://localhost:5174/api
+
 
 
 
