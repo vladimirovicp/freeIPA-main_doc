@@ -16,13 +16,13 @@ apt-get install cmake rpm-macros-cmake cmake-modules gcc-c++ qt5-base-devel qt5-
 
 Так же нужно установить ```libqjsonrp``` данная библиотека, есть только в sisyphus. У нас есть два варианта установить из sisyphus или собрать самим.
 
-## Сборка libqjsonrp
+## Сборка libqjsonrpc
 
-[Домашняя страница github](https://github.com/august-alt/qjsonrp)
+[Домашняя страница github - qjsonrpc](https://github.com/august-alt/qjsonrpc)
 
 
 ```bash
-git clone https://github.com/august-alt/qjsonrp
+git clone https://github.com/august-alt/qjsonrpc
 ```
 
 Установим зависимость ```libhttp-parser-devel```
@@ -44,9 +44,53 @@ Wrote: /home/fad/RPM/RPMS/x86_64/libqjsonrpc-debuginfo-1.0.0-alt1.x86_64.rpm (w2
 
 ```bash
 [root@ipa log] apt-get install /home/fad/RPM/RPMS/x86_64/libqjsonrpc-1.0.0-alt1.x86_64.rpm /home/fad/RPM/RPMS/x86_64/libqjsonrpc-devel-1.0.0-alt1.x86_64.rpm
+
+[root@ipa log] apt-get install /home/fad/RPM/RPMS/x86_64/libqjsonrpc-1.0.0-alt1.x86_64.rpm /home/fad/RPM/RPMS/x86_64/libqjsonrpc-devel-1.0.0-alt1.x86_64.rpm
 ```
 
+## Настройка и запуск gp web service
+
 Запускаем QT Creator, выбираем проект  
+
+открывем проект Open Project...
+
+```/home/fad/dev/gp-web-service/CMakeLists.txt```
+
+![image](img/install-prototype/20251229_151025.jpg)
+
+Создадим папку ```policy```, в моем случаи ```/home/fad/dev/policy/```
+
+Пропишем параметры командной строки ```-p /home/fad/dev/policy/```
+
+![image](img/install-prototype/20251229_151531.png)
+
+Уточняем где должны храниться наши плагины
+
+```
+    loadPluginDirectory("/usr/lib/gpui/plugins/");
+    loadPluginDirectory("/usr/lib64/gpui/plugins/");
+```
+
+![image](img/install-prototype/20251229_152616.png)
+
+Добавляем в среду плагины
+
+![image](img/install-prototype/20251229_154041.png)
+
+```GPUI_PLUGIN_DIRECTORY=/home/localadmin/git/gp-web-service/build/Desktop-Debug/lib64/gpui/plugins/```
+
+Собираем и запускаем! Должно собраться и сервер должен запуститься.
+
+Что бы проверить, что сервер работает поможет команда ```ss -tlnup```
+
+![image](img/install-prototype/20251229_162032.jpg)
+
+Обращаю внимание, что сервер работает на ```:5000``` порту.
+
+
+
+
+
 
 
 
