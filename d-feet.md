@@ -65,3 +65,58 @@
 'Machine/categories/ALT System/inherited/LAPS/policies/123'
 
 ![image](img/d-feet/20260327_165124.png)
+
+
+## Get Прочитаем значения
+
+Прочитаем выбранную нами политику
+
+'Machine/categories/ALT System/inherited/LAPS/policies/ALT_LAPS:Administrator Account Name'
+
+![image](img/d-feet/20260327_171622.png)
+
+
+## Set Записываем
+
+Произведем завись в 'Machine/categories/ALT System/inherited/LAPS/policies/ALT_LAPS:Administrator Account Name'
+
+формат set(String name_gpt, String target, Strinf path, String value, String metadata)
+
+
+**name_gpt** - это File System Path
+
+
+![image](img/d-feet/20260327_172546.png)
+
+Обрати внимание, что нужно исправить на двойной слэш '//'
+
+Добавляем name_gpt
+
+![image](img/d-feet/20260327_173341.png)
+
+**target** - Machine или User
+
+![image](img/d-feet/20260327_173650.png)
+
+**path** - это значение Read_Path_GPT, которое мы получили с помощью get ранее
+
+![image](img/d-feet/20260327_173941.png)
+
+добавляем
+
+![image](img/d-feet/20260327_174301.png)
+
+
+**value** - значение которое планируем передать
+
+![image](img/d-feet/20260327_174612.png)
+
+
+**metadata** - собствено путь политики для которой и производим запись
+мы ранее выбрали 'Machine/categories/ALT System/inherited/LAPS/policies/ALT_LAPS:Administrator Account Name'
+
+![image](img/d-feet/20260327_174933.png)
+
+выполяем, если все хорошо, то получаем true.
+
+
