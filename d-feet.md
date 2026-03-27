@@ -120,3 +120,12 @@
 выполяем, если все хорошо, то получаем true.
 
 
+## get_current_value Получаем наши записанные значения
+
+
+формат set(String name_gpt, String target, Strinf path)
+
+![image](img/d-feet/20260327_180001.png)
+
+
+
