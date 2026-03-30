@@ -115,7 +115,16 @@
 **metadata** - собствено путь политики для которой и производим запись
 мы ранее выбрали 'Machine/categories/ALT System/inherited/LAPS/policies/ALT_LAPS:Administrator Account Name'
 
+
+
 ![image](img/d-feet/20260327_174933.png)
+
+```
+
+'\\\\example.test\\SysVol\\example.test\\Policies\\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}','Machine','Software\\\\BaseALT\\\\Policies\\\\Laps\\\\AdministratorAccountName','test-30-03-2026','Machine/categories/ALT System/inherited/LAPS/policies/ALT_LAPS:Administrator Account Name'
+
+
+```
 
 выполяем, если все хорошо, то получаем true.
 
@@ -126,6 +135,10 @@
 формат set(String name_gpt, String target, Strinf path)
 
 ![image](img/d-feet/20260327_180001.png)
+
+```
+'\\\\example.test\\SysVol\\example.test\\Policies\\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}','Machine','Software\\\\BaseALT\\\\Policies\\\\Laps\\\\AdministratorAccountName'
+```
 
 
 
