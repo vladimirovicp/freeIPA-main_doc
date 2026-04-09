@@ -1,4 +1,4 @@
-# freeipa-server-gpo
+# freeipa-server-gpo 0.07
 
 ```bash
 apt-get remove freeipa-server-gpo
