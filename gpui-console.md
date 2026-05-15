@@ -81,8 +81,8 @@ File System Path = \\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A
 ipa gpo-get-current-value
 ```
 
-```name_gpt = \\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}```
-```target = Machine```
-```path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName```
+* ```name_gpt = \\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}```
+* ```target = Machine```
+* ```path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName```
 
 ![image](img/gpui-console/20260515_160105.jpg)
