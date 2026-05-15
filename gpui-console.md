@@ -70,8 +70,27 @@ ipa gpo-get-policy
 File System Path = \\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}
 ```
 
-НАДО ДОПИСАТЬ!
+```
+target = Machine
+```
 
+```
+path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName
+```
+
+```
+value = Наше значение
+
+value = **del.MyPolicyValue;
+```
+
+```
+metadata = Machine/categories/Система ALT/inherited/LAPS/policies/Имя учетной записи администратора
+```
+
+```bash
+ipa gpo-set-policy
+```
 
 
 
