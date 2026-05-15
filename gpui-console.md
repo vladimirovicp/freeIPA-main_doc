@@ -80,4 +80,4 @@ ipa gpo-get-current-value
 ```target = Machine```
 ```path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName```
 
-![image](img/gpui-console/20260515_160105.png)
+![image](img/gpui-console/20260515_160105.jpg)
