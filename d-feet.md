@@ -142,3 +142,8 @@
 
 
 
+## delete_policy_value (String name_gpt, String target, String path)
+
+```
+'\\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}','Machine','Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName'
+```
