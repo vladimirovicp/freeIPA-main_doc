@@ -20,19 +20,24 @@ Machine/categories
 Machine/categories/ALT System
 
 !Обрати внимание, на то, что зависит от языка системы!
+
 ![image](img/gpui-console/20260515_141853.png)
 
 
 Machine/categories/Система ALT
+
 ![image](img/gpui-console/20260515_142109.jpg)
 
 Machine/categories/Система ALT/inherited
+
 ![image](img/gpui-console/20260515_142416.jpg)
 
 Machine/categories/Система ALT/inherited/LAPS
+
 ![image](img/gpui-console/20260515_142630.jpg)
 
 Machine/categories/Система ALT/inherited/LAPS/policies
+
 ![image](img/gpui-console/20260515_152304.jpg)
 
 Выбераем например: Имя учетной записи администратора
