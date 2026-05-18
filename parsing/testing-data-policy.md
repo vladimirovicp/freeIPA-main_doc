@@ -53,6 +53,8 @@ Machine/categories/Система ALT/inherited/LAPS/policies/Действия �
 ```bash
 ipa gpo-get-policy
 ```
+
+```
 Machine/categories/Система ALT/inherited/LAPS/policies/Действия после проверки подлинности
 ```
 
