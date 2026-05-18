@@ -66,6 +66,29 @@ Machine/categories/Система ALT/inherited/LAPS/policies/Действия �
 
 
 
+```
+Software\\BaseALT\\Policies\\Laps\\PostAuthenticationResetDelay
+```
+
+Поиграем со слешами...
+
+## Set 
+
+**NAME_GPT :**  ```\\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}```
+
+**TARGET:**  ```Machine```
+
+**PATH :** ```Software\\BaseALT\\Policies\\Laps\\PostAuthenticationResetDelay```
+
+**VALUE :**  ```test-8```
+
+
+
+![image](/parsing/img/20260518_153752.jpg)
+
+
+![image](/parsing/img/20260518_153851.jpg)
+
 
 
 
