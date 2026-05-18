@@ -88,13 +88,12 @@ value = Наше значение
 value = **del.MyPolicyValue;
 ```
 
-```
-metadata = Machine/categories/Система ALT/inherited/LAPS/policies/Имя учетной записи администратора
-```
-
 ```bash
 ipa gpo-set-policy
 ```
+
+![image](img/gpui-console/20260518_141905.jpg)
+
 
 
 
