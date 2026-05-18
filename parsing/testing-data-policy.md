@@ -36,6 +36,49 @@ ipa gpo-set-policy
 
 
 
+Перепроверю все ли верно ввёл
+
+```bash
+ipa gpo-list-children
+```
+
+![image](/parsing/img/20260518_151820.jpg)
+
+```
+Machine/categories/Система ALT/inherited/LAPS/policies/Действия после проверки подлинности
+```
+
+## get
+
+```bash
+ipa gpo-get-policy
+```
+Machine/categories/Система ALT/inherited/LAPS/policies/Действия после проверки подлинности
+```
+
+![image](/parsing/img/20260518_152354.jpg)
+
+![image](/parsing/img/20260518_152523.jpg)
+
+![image](/parsing/img/20260518_152620.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
