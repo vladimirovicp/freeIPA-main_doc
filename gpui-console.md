@@ -107,4 +107,23 @@ ipa gpo-get-current-value
 * ```target = Machine```
 * ```path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName```
 
+Есть значение
+
 ![image](img/gpui-console/20260515_160105.jpg)
+
+Нет значения.
+
+![image](img/gpui-console/20260518_142832.jpg)
+
+
+
+
+## delete-policy
+
+```ipa gpo-delete-policy```
+
+**name_gpt:** ```\\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}```
+**target: ```Machine```
+**path:** ```Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName```
+
+![image](img/gpui-console/20260518_142642.jpg)
