@@ -53,6 +53,10 @@ Machine/categories/Система ALT/inherited/LAPS/policies
 ipa gpo-get-policy
 ```
 
+
+**Policy path:** ```Machine/categories/Система ALT/inherited/LAPS/policies/Имя учетной записи администратора```
+
+
 ![image](img/gpui-console/20260515_154202.jpg)
 
 Данные path мы получаем из data
