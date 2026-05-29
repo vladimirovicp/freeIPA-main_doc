@@ -1,8 +1,8 @@
 Путь хранения данных freeIPA - /var/lib/freeipa/sysvol
 
 ## Содержание
-1. [list_children](##list_children)
-2. [Get](##Get)
+1. [list_children](#list_children)
+2. [Get](#get-прочитаем-значения)
 
 # d-feet
 
