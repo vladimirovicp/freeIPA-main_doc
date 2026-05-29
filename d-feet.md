@@ -3,6 +3,10 @@
 ## Содержание
 1. [list_children](#list_children)
 2. [Get](#get-прочитаем-значения)
+3. [Set](#set-записываем)
+4. [get_current_value](#get_current_value-получаем-наши-записанные-значения)
+6. [delete_policy_value](#delete_policy_value-string-name_gpt-string-target-string-path)
+7. [get_local](#set_local)
 
 # d-feet
 
@@ -160,3 +164,10 @@ path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName
 ```
 '\\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}','Machine','Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName'
 ```
+
+## get_local
+
+Отправляем пустоту получаем 'ru-Ru'
+
+![image](img/d-feet/20260529_170537.png)
+
