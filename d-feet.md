@@ -8,7 +8,7 @@
 6. [delete_policy_value](#delete_policy_value-string-name_gpt-string-target-string-path)
 7. [get_locale](#get_locale)
 8. [set_locale](#set_locale)
-9. [get_preferences](get_preferences)
+9. [get_preferences](#get_preferences)
 
 # d-feet
 
