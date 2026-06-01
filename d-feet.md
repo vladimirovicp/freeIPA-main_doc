@@ -8,6 +8,7 @@
 6. [delete_policy_value](#delete_policy_value-string-name_gpt-string-target-string-path)
 7. [get_locale](#get_locale)
 8. [set_locale](#set_locale)
+9. [get_preferences](get_preferences)
 
 # d-feet
 
@@ -181,3 +182,22 @@ path = Software\\BaseALT\\Policies\\Laps\\AdministratorAccountName
 ![image](img/d-feet/20260529_173249.png)
 
 
+
+## get_preferences
+
+```
+gpo_guid = '\\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}'
+
+scope='Machine'
+
+pref_type= 'shortcuts'
+```
+
+
+```
+'\\example.test\SysVol\example.test\Policies\{16D7EE44-417B-4A76-BE92-B0C5C1030A82}','Machine','shortcuts'
+```
+
+
+
+![image](img/d-feet/20260601_140518.png)
