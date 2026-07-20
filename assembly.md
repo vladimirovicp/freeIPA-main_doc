@@ -16,11 +16,16 @@ gear-rpm -ba
 ```
 
 
-```
+```bash
 cd freeipa-server-gpo
 
 git checkout -b move_to_admix
 
+
+
 gear-rpm -ba
+
+git add .
+gear-rpm -ba --commit
 
 ```
