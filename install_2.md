@@ -264,3 +264,70 @@ gear-rpm -ba
 
 
 ```
+
+
+
+# other
+
+
+ipactl restart
+
+ipa-gpo-install
+
+kinit admin
+
+ apt-get install rpm-build make gear
+
+
+chown fad:fad /home/fad/PowerOptions.xml
+
+
+chown fad:fad admin:///home/fad/PowerOptions.xml
+
+
+apt-get install /home/fad/RPM/RPMS/x86_64/python3-module-admix-0.1.0-alt1.x86_64.rpm
+
+
+apt-get install /home/fad/RPM/RPMS/x86_64/freeipa-server-gpo-0.0.8-alt1.x86_64.rpm
+
+gear-rpm -ba
+
+
+apt-get install python3-module-pyproject-installer
+
+
+cd /usr/share/ipa/ui/js/plugins/chain/
+
+cd /home/fad/git/freeipa-server-gpo/
+
+cd /usr/share/ipa/ui/js/plugins/chain/
+
+cd /home/fad/git/gp-web-ui-integration/
+
+cd /usr/share/ipa/ui/js/plugins/chain/
+
+
+-----------------
+
+apt-get install $(rpmspec -q --buildrequires ./admix.spec)
+
+rpmspec -q --buildrequires ./admix.spec 
+
+rpmspec -q --requires ./admix.spec 
+
+rpmspec --requires ./admix.spec 
+
+
+
+
+--------
+
+git clone https://altlinux.space/korney3g1/libadmix.git
+
+
+git clone https://altlinux.space/korney3g1/freeipa-server-gpo.git
+
+
+git checkout move_to_admix 
+
+gear-rpm -ba
